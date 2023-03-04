@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    height: 15vh;
+    width: 50vw;
+    border: 3px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.329);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.event {
+    color: white;
+}
+
+.header {
+    width: 50vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hidden {
+    opacity: .4;
+}
+
+.active {
+    opacity: 1;
+}
+
+.list {
+    width: 25vw;
+}

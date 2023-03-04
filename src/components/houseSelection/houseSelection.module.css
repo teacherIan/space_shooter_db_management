@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    height: 10vh;
+    width: 15vw;
+    border: 3px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.329);
+    color: white;
+
+}
+
+
+.event {
+    color: white;
+}
+
+.header {
+    color: white;
+
+}
+
+.hidden {
+    opacity: .4;
+}
+
+.active {
+    opacity: 1;
+}
