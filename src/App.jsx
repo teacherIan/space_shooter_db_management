@@ -14,7 +14,7 @@ function App() {
   //competition names
   const [competitionSet, setCompetitionSet] = useState([]);
   //currently active competition
-  const [activeCompetition, setActiveCompetition] = useState(-1);
+  const [activeCompetition, setActiveCompetition] = useState(0);
   //currently active house
   const [activeHouse, setActiveHouse] = useState(0);
   //currently active result data
